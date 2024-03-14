@@ -8,9 +8,6 @@ To run, download the IntelliJ ide and open the porject, then nevigate to main.ja
 IntelliJ website: (available free through the community edition)
 https://www.jetbrains.com/idea/download/?section=windows
 
-Video showing functionality:
-
-
 Database Creation Code
 
 create table students
@@ -31,3 +28,6 @@ INSERT INTO students (first_name, last_name, email, enrollment_date) VALUES
 ('John', 'Doe', 'john.doe@example.com', '2023-09-01'),
 ('Jane', 'Smith', 'jane.smith@example.com', '2023-09-01'),
 ('Jim', 'Beam', 'jim.beam@example.com', '2023-09-02');
+
+Video showing functionality:
+https://youtu.be/iZCiwRzQ258
