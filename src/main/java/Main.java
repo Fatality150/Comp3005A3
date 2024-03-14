@@ -15,8 +15,6 @@ public class Main
 
             while (resultSet.next())
             {
-
-                new String(new char[15 - resultSet.getString("student_id").length()]).replace("\0", " ");
                 System.out.print(resultSet.getString("student_id") + new String(new char[16 - resultSet.getString("student_id").length()]).replace("\0", " ") + "| ");
                 System.out.print(resultSet.getString("first_name") + new String(new char[16 - resultSet.getString("first_name").length()]).replace("\0", " ") + "| ");
                 System.out.print(resultSet.getString("last_name") + new String(new char[16 - resultSet.getString("last_name").length()]).replace("\0", " ") + "| ");
